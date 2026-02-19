@@ -1,34 +1,35 @@
-# 🚩 HTB-Pwned
+# HTB-Pwned: Penetration Testing Lab Notes
 
-Hack The Box platformasındakı maşınların həlləri, qeydlərim və istifadə etdiyim exploit kodlarının toplandığı repodur.
+![Security Status](https://img.shields.io/badge/Status-Active-brightgreen)
+![Platform](https://img.shields.io/badge/Platform-HackTheBox-orange)
+![License](https://img.shields.io/badge/License-MIT-blue)
 
-## 📁 Reponun Strukturuna Baxış
-
-Hər bir maşın üçün ayrıca qovluq yaradılıb və içərisində aşağıdakılar mövcuddur:
-* **Nmap:** Skan nəticələri.
-* **Exploits:** İstifadə olunan scriptlər.
-* **Notes.md:** Maşının həll yolu (write-up).
+This repository serves as a centralized documentation hub for my methodology, exploit chains, and technical findings while navigating various **Hack The Box** machines.
 
 ---
 
-## 🛠️ İstifadə Olunan Alətlər
+## 🛡 Methodology
 
-Maşınların həlli zamanı əsasən bu alətlərdən istifadə edirəm:
+My approach follows the standard Penetration Testing Execution Standard (PTES):
 
-| Alət | Məqsəd |
-| :--- | :--- |
-| **Nmap** | Port skan və servis analizi |
-| **Burp Suite** | Web trafik analizi |
-| **Gobuster / Feroxbuster** | Directory brute-force |
-| **Metasploit** | Exploit idarəetməsi |
-| **Netcat** | Reverse shell bağlantıları |
+1.  **Reconnaissance:** Passive and active information gathering.
+2.  **Enumeration:** In-depth service analysis (Nmap, SNMP, LDAP, Web).
+3.  **Vulnerability Analysis:** Identifying misconfigurations and known CVEs.
+4.  **Exploitation:** Developing or tailoring exploits for Initial Access.
+5.  **Privilege Escalation:** Vertical and horizontal movement within the system.
+6.  **Post-Exploitation:** Loot collection and persistence analysis.
 
 ---
 
-## 🚀 Başlamaq Üçün
+## 📂 Repository Structure
 
-Bu reponu öz lokal maşınınıza klonlamaq üçün:
-
-```bash
-git clone git@github.com:vitasec/HTB-Pwned.git
-cd HTB-Pwned
+```text
+.
+├── Active-Machines/       # Ongoing investigations (Hidden/Encrypted)
+├── Retired-Machines/      # Complete write-ups and scripts
+│   ├── Linux/
+│   │   └── [Machine-Name]/
+│   └── Windows/
+│       └── [Machine-Name]/
+├── Scripts/               # Custom automation & exploit wrappers
+└── Templates/             # Reusable report and scan templates
