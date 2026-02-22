@@ -1,6 +1,6 @@
 # Hack The Box: Interpreter - Machine Badge
 
-![HTB Badge](https://labs.hackthebox.com/achievement/machine/2373232/841 ) ## 🏆 Summary
+## 🏆 Summary
 This repository serves as a confirmation of the successful completion of the **Interpreter** machine on [Hack The Box](https://app.hackthebox.com/machines/Interpreter?sort_by=created_at&sort_type=desc).
 
 ## 🛡️ Disclaimer
