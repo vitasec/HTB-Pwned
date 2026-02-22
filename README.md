@@ -21,15 +21,4 @@ My approach follows the standard Penetration Testing Execution Standard (PTES):
 
 ---
 
-## 📂 Repository Structure
 
-```text
-.
-├── Active-Machines/       # Ongoing investigations (Hidden/Encrypted)
-├── Retired-Machines/      # Complete write-ups and scripts
-│   ├── Linux/
-│   │   └── [Machine-Name]/
-│   └── Windows/
-│       └── [Machine-Name]/
-├── Scripts/               # Custom automation & exploit wrappers
-└── Templates/             # Reusable report and scan templates
